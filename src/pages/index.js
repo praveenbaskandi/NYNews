@@ -15,7 +15,7 @@ import * as S from './style';
 const HomePage = () => {
   const {translations, newsList, newsType, isLoading} = useSelect();
   const [dataList, setDataList] = useState(newsList);
-  const [category, setCategory] = useState('arts');
+  const [category, setCategory] = useState('world');
   const [location, setLocation] = useState('');
   const [keyword, setKeyword] = useState('');
   const dispatch = useDispatch();
